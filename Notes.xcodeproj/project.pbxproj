@@ -12,6 +12,7 @@
 		7139E22C29FA5F68007B1E41 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7139E22B29FA5F68007B1E41 /* ContentView.swift */; };
 		7139E22E29FA5F69007B1E41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7139E22D29FA5F69007B1E41 /* Assets.xcassets */; };
 		7139E23129FA5F69007B1E41 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7139E23029FA5F69007B1E41 /* Preview Assets.xcassets */; };
+		7139E23F29FA61A7007B1E41 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7139E23E29FA61A7007B1E41 /* Note.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		7139E22B29FA5F68007B1E41 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7139E22D29FA5F69007B1E41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7139E23029FA5F69007B1E41 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7139E23E29FA61A7007B1E41 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +80,9 @@
 		7139E22829FA5F68007B1E41 /* Notes Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				7139E23D29FA6197007B1E41 /* Model */,
 				7139E22929FA5F68007B1E41 /* NotesApp.swift */,
-				7139E22B29FA5F68007B1E41 /* ContentView.swift */,
+				7139E23B29FA6149007B1E41 /* View */,
 				7139E22D29FA5F69007B1E41 /* Assets.xcassets */,
 				7139E22F29FA5F69007B1E41 /* Preview Content */,
 			);
@@ -92,6 +95,22 @@
 				7139E23029FA5F69007B1E41 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7139E23B29FA6149007B1E41 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7139E22B29FA5F68007B1E41 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7139E23D29FA6197007B1E41 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7139E23E29FA61A7007B1E41 /* Note.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +213,7 @@
 			files = (
 				7139E22C29FA5F68007B1E41 /* ContentView.swift in Sources */,
 				7139E22A29FA5F68007B1E41 /* NotesApp.swift in Sources */,
+				7139E23F29FA61A7007B1E41 /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
